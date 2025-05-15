@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JL Gramas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="inicial">
+      <header>
+        <nav id="containermenu">
+          <button id="menu-toggle" class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div id="logo-nome">
+            <a class="backhome" href="#menu">
+              <img class="logo" src="img/logo.png" alt="Logo" title="Gramas São José" />
+              <h1 class="nome">Gramas</h1>
+            </a>
+          </div>
+          <ul id="menu">
+            <li><a href="#" class="fakelink">Início</a></li>
+            <li><a href="#orcamento-box" class="fakelink">Orçamentos</a></li>
+            <li><a href="#tituloloc" class="loc">Localização</a></li>
+            <li><a href="#contato" class="fakelink">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="sobre">
+          <div class="welcome">
+            <h1 class="t-sobre">Há mais de 30 anos produzindo a melhor grama de Angatuba e Região.</h1>
+            <p class="p-sobre">
+              A beleza do seu jardim começa com uma grama perfeita. Trabalhamos com grama esmeralda selecionada,
+              pronta para plantio, direto do produtor para você.
+            </p>
+          </div>
+        
+          <div class="galeria"> 
+            <h2 class="titulo-galeria">Nossa Produção</h2>
+            <div class="slider">
+              <div class="slides">
+                <div class="slide"><img src="img/grama1.png" alt="Grama 1" /></div>
+                <div class="slide"><img src="img/grama2.png" alt="Grama 2" /></div>
+                <div class="slide"><img src="img/grama3.png" alt="Grama 3" /></div>
+                <div class="slide img45"><img src="img/grama4.png" alt="Grama 4" /></div>
+                <div class="slide img45"><img src="img/grama5.jpg" alt="Grama 5" /></div>
+                
+              </div>
+            </div>
+          </div>
+        </section>
+          
+
+        <section class="orcamento">
+          <div id="orcamento-box">
+            <h2 class="titulo-orcamento">Solicite um Orçamento</h2>
+            <form id="form-orcamento">
+              <input type="text" id="nome" placeholder="Seu nome" required />
+              <input type="email" id="email" placeholder="Seu e-mail" required />
+              <textarea id="mensagem" placeholder="Descreva seu pedido..." required></textarea>
+              <div class="botoes-orcamento">
+                <a id="enviar-email" href="#">Enviar por E-mail</a>
+                <a id="enviar-whatsapp" href="#" target="_blank">Enviar por WhatsApp</a>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section class="sectionloc">
+          <div class="localizacao">
+            <div class="info-loc">
+              <h2 id="tituloloc">Nossa Localização</h2>
+              <p class="endereco">
+                Estr. Vicinal Carmine Barretti <br>
+                Angatuba - SP, CEP 18240-000 <br>
+                <br>
+            
+              </p>
+            </div>
+            <iframe id = "imap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3519004792906!2d-48.3191361!3d-23.5558017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c423df59dd04bb%3A0x683d914238d9d92f!2sJL%20Gramas!5e0!3m2!1spt-BR!2sbr!4v1746750127809!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <section class="contato" id="contato">
+    <div class="contato-container">
+      <h2 class="titulo-contato">Entre em Contato</h2>
+      <div class="contato-info">
+        <div class="contato-item">
+          <i class="fas fa-phone-alt"></i>
+          <p>(15) 99690-8090</p>
+        </div>
+        <div class="contato-item">
+          <i class="fas fa-envelope"></i>
+          <p>joseluizgrama@gmail.com</p>
+        </div>
+        <div class="contato-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Estr. Vicinal Carmine Barretti
+            Angatuba - SP</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <a href="https://wa.me/5515996908090" class="whatsapp-float" target="_blank" title="Fale conosco no WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <script src="script.gramassaojose.js"></script>
+  </body> 
+</html>
